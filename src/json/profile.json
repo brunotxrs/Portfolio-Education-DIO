@@ -1,0 +1,80 @@
+{
+    "name":"Bruno Teixeira",
+    "photo": "https://github.com/brunotxrs/Portfolio-Education-DIO/blob/main/src/assets/img/profile-photo.png?raw=true",
+    "occupation": "Estudante Técnico Desenvolvimento de Sistemas",
+    "location": "Itacoatiara | AM",
+    "phone": "https://api.whatsapp.com/send/?phone=559293530995&text&type=phone_number&app_absent=0",
+    "email": "brunootxrs@gmail.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "HTML5",
+                "logo": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+            },
+            {
+                "name": "CSS3",
+                "logo": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+            },
+            {
+                "name": "JavaScript",
+                "logo": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+            },
+            {
+                "name": "React",
+                "logo": "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000"
+            },
+            {
+                "name": "PHP",
+                "logo": "https://img.icons8.com/?size=100&id=f0R4xVI4Sc8O&format=png&color=000000"
+            }            
+        ],
+        "softSkills": [
+            
+            "Gerenciamento de Tempo",
+            "Trabalho em equipe",
+            "Adaptabilidade",
+            "Comunicação",
+            "Organização",
+            "Resolução de problemas",
+            "Atenção aos Detalhes",
+            "Análise de dados",
+            "Comunicação técnica"
+        ]
+    },
+    "languages": [
+        "Português BR",
+        "Inglês (intermediário)"
+    ],
+    "portfolio": [
+        {
+            "name": "Blog de Aprendizado HTML Minha Jornada Front-End",
+            "url": "https://github.com/brunotxrs/Blog-de-Aprendizado-HTML-Minha-Jornada-Front-End",
+            "github": true
+        },
+        {
+            "name": "WikiWord",
+            "url": "https://github.com/brunotxrs/wikiworld",
+            "github": true
+        },
+        {
+            "name": "YouTube Clone",
+            "url": "https://github.com/brunotxrs/youtube-clone",
+            "github": true
+        },
+        {
+            "name": "Discord Replica",
+            "url": "https://github.com/brunotxrs/Discord-Replica",
+            "github": true
+        },
+        {
+            "name": "JS Developer Pokedex",
+            "url": "https://github.com/brunotxrs/js-developer-pokedex",
+            "github": true
+        },
+        {
+            "name": "JS Yu-Gi-Oh",
+            "url": "https://github.com/brunotxrs/js-Yu-Gi-Oh",
+            "github": true
+        }
+    ]
+}

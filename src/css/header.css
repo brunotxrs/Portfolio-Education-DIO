@@ -1,0 +1,145 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem 0 0 0;
+    gap: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    figure {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+        img {
+            width: 8.75rem;
+            border-radius: 50%;
+            border: 0.125rem solid var(--secondary);
+        }
+
+    }
+
+    .info {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+        .presentation {
+            p {
+                font-size: 1.2rem;
+                font-family: var(--font-portfolio);
+            }
+
+            h1 {
+                font-size: 1.2rem;
+                font-family: var(--font-portfolio);
+                font-weight: 500;
+            }
+
+        }
+
+        .details-content {
+            padding-top: 0.625rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.25rem;
+
+            li {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.3125rem;
+
+                img {
+                    width: 0.6875rem;
+                }
+
+                span {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+    }
+    
+}
+
+
+@media screen and (width > 48rem){
+    .header {
+        height: 11.5625rem;
+        display: flex;
+        flex-direction: row;
+        padding: 0rem 0 0 0;
+        gap: 1.875rem;
+        justify-content: center;
+
+        width: 21.5625rem;
+
+        figure {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            img {
+                width: 8.75rem;
+                border-radius: 50%;
+                border: 0.125rem solid var(--secondary);
+            }
+
+        }
+
+        .info {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            
+            .presentation {
+                p {
+                    font-size: 1.2rem;
+                    font-family: var(--font-portfolio);
+                }
+
+                h1 {
+                    font-size: 1.2rem;
+                    font-family: var(--font-portfolio);
+                    font-weight: 500;
+                }
+
+            }
+
+            .details-content {
+                padding-top: 0.625rem;
+                display: flex;
+                flex-direction: column;
+                align-items: initial;
+                gap: 0.25rem;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 0.3125rem;
+
+                    img {
+                        width: 0.6875rem;
+                    }
+
+                    span {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+
+        }
+        
+    }    
+}

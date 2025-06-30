@@ -1,7 +1,17 @@
 main {
-    max-width: 29.375rem;
+    max-width: 20rem;
     height: 100%;
     margin: auto;
     border-radius: 0.5rem;
     outline: 0.0625rem solid var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (width > 48rem) {
+    main {
+        max-width: 29.375rem;
+    }
 }

@@ -1,0 +1,39 @@
+.spinner {
+    height: 1.625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 0.3125rem;
+    padding: 1.25rem 1.25rem 0 0 ;
+
+    span {
+        background-color: var(--color-white);
+        height: 0.5rem;
+        width:  0.5rem;
+        padding: 0.0625rem;
+        border-radius: 624.9375rem;
+        animation: bounce 1.2s infinite ease-in-out;
+
+    }
+
+    span:nth-child(1){
+        animation-delay: 0s; 
+    }
+
+    span:nth-child(2){
+        animation-delay: 0.2s; 
+    }
+
+    span:nth-child(3){
+        animation-delay: 0.4s; 
+    }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.3125rem); 
+  }
+}

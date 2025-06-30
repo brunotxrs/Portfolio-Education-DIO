@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Neue Machina';
-    src: url('../fonts/neue-machina-regular.otf');
+    src: url('../assets/fonts/neue-machina-regular.otf');
 }
 
 :root {
@@ -15,5 +15,14 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 1.25rem 0;
+    color: var(--color-white);
     
+}
+
+ol {
+    list-style: none;
+}
+
+figure > img {
+    width: 100px;
 }

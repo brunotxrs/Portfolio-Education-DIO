@@ -2,8 +2,11 @@
     "name":"Bruno Teixeira",
     "photo": "https://github.com/brunotxrs/Portfolio-Education-DIO/blob/main/src/assets/img/profile-photo.png?raw=true",
     "occupation": "Estudante Técnico Desenvolvimento de Sistemas",
-    "location": "Itacoatiara | AM",
-    "phone": "https://api.whatsapp.com/send/?phone=559293530995&text&type=phone_number&app_absent=0",
+    "location": "Amazonas - BR",
+    "contact": {
+        "phone_display": "(92) 99353-0995",
+        "whatsapp_url": "https://api.whatsapp.com/send/?phone=559293530995&text&type=phone_number&app_absent=0"
+    },
     "email": "brunootxrs@gmail.com",
     "skills": {
         "hardSkills": [

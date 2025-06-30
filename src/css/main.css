@@ -1,0 +1,7 @@
+main {
+    max-width: 29.375rem;
+    height: 100%;
+    margin: auto;
+    border-radius: 0.5rem;
+    outline: 0.0625rem solid var(--color-white);
+}

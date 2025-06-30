@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/styles.css">
     <title>Portfolio Education DIO</title>
 </head>
@@ -15,9 +16,8 @@
             <span></span>
         </div>
 
-        <section class="header">
+        <section class="description-details">
             <figure id="image-profile">
-                <img src="./src/assets/img/profile-photo.png" alt="image profile">
             </figure>
 
             <div class="info">
@@ -38,14 +38,47 @@
                     </li>
                     <li>
                         <img src="./src/assets/img/ico/whatsapp-ico.svg" alt="ico WhatsApp">
-                        <span id="phone">(92) 99353-0995</span>
+                        <span id="phone"></span>
                     </li>
                     <li>
                         <img src="./src/assets/img/ico/email-ico.svg" alt="ico E-mail">
-                        <span>brunootxrs@gmail.com</span>
+                        <span id="email"></span>
                     </li>
                 </ol>
             </div>
+        </section>
+
+        <section class="skills">
+            <div class="select-skills selection" id="select-skills">
+                <span>Skills</span>
+                <button>
+                    <img src="./src/assets/img/ico/arrow-down-ico.svg" alt="arrow down ico " id="arrow-down">
+
+                    <img src="./src/assets/img/ico/arrow-up-ico.svg" alt="arrow up ico " id="arrow-up" class="hidden">
+                </button>
+            </div>
+
+            <div class="hidden" id="box-skills">
+                <div class="skills-content selection">
+                    <div>
+                        <span>Habilidades profissionais: </span>
+                        <ol id="hardSkills">
+                            
+                        </ol>
+                    </div>
+                    <div>
+                        <span>Habilidades pessoais: </span>
+                        <ol id="softSkills">
+                            <li><span>skills personal</span></li>
+                            <li><span>skills personal</span></li>
+                            <li><span>skills personal</span></li>
+                            <li><span>skills personal</span></li>
+                            <li><span>skills personal</span></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
     </main>

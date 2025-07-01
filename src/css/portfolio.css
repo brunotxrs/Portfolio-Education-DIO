@@ -1,0 +1,107 @@
+.portfolio {
+    width: 20rem;
+    padding: 1.875rem 1.25rem 0 1.25rem;
+
+    .select {
+        height: 2.5rem;
+        outline: 0.0625rem solid var(--color-white);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 1.25rem;
+        border-radius: 0.625rem;
+
+        span {
+            font-weight: 600;
+            font-size: 1.1rem;
+            user-select: none;
+        }
+
+        button {
+            background: none;
+            border: none;
+            outline: none;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            user-select: none;
+            
+
+            img {
+                width: 0.625rem;
+                cursor: pointer;
+                user-select: none;
+            }
+        }
+    }
+
+    .select:hover {
+        background-color: var(--secondary);
+        outline: none;
+    }
+
+    .portfolio-content {
+        display: flex;
+        flex-direction: row;
+        gap: 0.625rem;
+        border-bottom-left-radius: 0.625rem;
+        border-bottom-right-radius: 0.625rem;
+        margin-top: -1.25rem;
+        padding: 1.3125rem 0;
+
+
+        ol {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-evenly;
+            padding: 0.3125rem;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            li > span {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                align-items: center;
+                gap: 0.625rem;
+            }
+
+            li > span > img {
+                width: 1.2rem;
+                display: flex;
+                align-items: center;
+                user-select: none;
+            }
+
+            li > span > span {
+                font-weight: 600;
+                letter-spacing: .0.125rem;
+                user-select: none;
+
+            }
+
+            li > a {
+                text-align: left;
+                padding-left: 0.125rem;
+                letter-spacing: .0.125rem;
+                padding: 0.9375rem 0 0.9375rem 0.3125rem;
+                font-size: 0.8rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (width > 48rem) {
+    .portfolio {
+        width: 20.625rem;
+        padding: 1.875rem 0 0rem;
+    }
+}

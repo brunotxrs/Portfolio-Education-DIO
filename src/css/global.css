@@ -10,10 +10,12 @@
     --secondary: #55569E;
 }
 
+html {
+    scrollbar-width: none;
+}
+
 body {
     background-image: var(--bg-container);
-    width: 100vw;
-    height: 100vh;
     padding: 1.25rem 0;
     color: var(--color-white);
     
@@ -23,6 +25,23 @@ ol {
     list-style: none;
 }
 
-figure > img {
-    width: 100px;
+a {
+    color: var(--color-white);
+    text-decoration: none;
+    outline: none;
 }
+
+.hidden {
+    display: none;
+}
+
+.bg-hover {
+    background-color: var(--secondary);
+}
+
+.element-btn {
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    
+}
+

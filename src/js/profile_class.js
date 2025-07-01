@@ -7,7 +7,7 @@ class Profile {
 
     occupation;
     location;
-    phone;
+    contact;
     email;
     skills;
     languages;
@@ -22,7 +22,7 @@ class Profile {
 
         this.occupation = data.occupation;
         this.location = data.location;
-        this.phone = data.phone;
+        this.contact = data.contact;
         this.email = data.email;
         this.skills = data.skills; //objeto de habilidades
         this.languages = data.languages; //array de linguagens

@@ -1,9 +1,9 @@
 .skills {
     width: 20rem;
-    padding: 1.875rem 1.25rem;
+    padding: 1.875rem 1.25rem 0 1.25rem;
 
 
-    .select-skills {
+    .select {
         height: 2.5rem;
         outline: 0.0625rem solid var(--color-white);
         display: flex;
@@ -11,11 +11,12 @@
         align-items: center;
         justify-content: space-between;
         padding: 0rem 1.25rem;
-        border-radius: 3.125rem;
+        border-radius: 0.625rem;
 
         span {
             font-weight: 600;
             font-size: 1.1rem;
+            user-select: none;
         }
 
         button {
@@ -25,16 +26,18 @@
             display: flex;
             align-items: center;
             height: 100%;
+            user-select: none;
             
 
             img {
                 width: 0.625rem;
                 cursor: pointer;
+                user-select: none;
             }
         }
     }
 
-    .select-skills:hover {
+    .select:hover {
         background-color: var(--secondary);
         outline: none;
     }
@@ -46,69 +49,60 @@
         border-bottom-left-radius: 0.625rem;
         border-bottom-right-radius: 0.625rem;
         margin-top: -1.25rem;
+        padding: 0.3125rem;
+        user-select: none;
+        
 
-        div:nth-child(1){
-            width: 100%;
+        .box-content {
+            padding-top: 0.9375rem;
             display: flex;
             flex-direction: column;
-            
+            width: 100%;
+            height: 100%;
 
-            span {
-                max-width: 8.125rem;
+            .span {
+                height: 3.4375rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
                 text-align: center;
-                font-size: 0.8rem;
-                font-weight: 600;
-                padding: 1.5rem 0;
             }
 
             ol {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                gap: 0.3125rem;
-                width: 100%;
-                text-align: center;
 
-                li > img {
-                    width: 3.125rem;
-                }
-            }
-        }
-
-        div:nth-child(2){
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-           
-
-            span {  
-                max-width: 8.125rem;
-                text-align: center;    
-                font-size: 0.8rem;
-                font-weight: 600;
-                padding: 1.25rem 0;
-            }
-
-            ol {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                height: 100%;
-
-                gap: 0.3125rem;
-                width: 100%;
-                text-align: center;
 
                 li {
-                    list-style: disc;
-                    list-style-position: inside;
-                    
+                    width: 100%;
+                    display: flex;
+                    text-align: initial;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    img {
+                        width: 3.125rem;
+                    }
+
+                    span {
+                        height: 1.875rem;
+                        width: 100%;
+                        font-size: 0.7rem;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
                 }
 
-                li > span {
-                    font-weight: 100;
-                    padding: 0;
-                    margin: -0.625rem;
-                }
+                
             }
+
+            
         }
     }
 }
@@ -117,89 +111,31 @@
     
     .skills {
         width: 20.625rem;
-        padding: 1.875rem 0rem;
+        padding: 1.875rem 0 0rem;
 
-        .select-skills {
+        .select {
             outline: 0.0625rem solid var(--color-white);
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
             padding: 0 1.25rem;
-            border-radius: 3.125rem;
+            border-radius: 0.625rem;
 
             span {
+                max-width: 8.125rem;
+                text-align: center;
                 font-weight: 600;
-                font-size: 1.1rem;
+                display: flex;
+                align-items: center;
+                height: 3.4375rem;
             }
         }
-
         .skills-content {
             display: flex;
             flex-direction: row;
             gap: 0.625rem;
 
-            div:nth-child(1){
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                
-
-                span {
-                    text-align: center;
-                    font-size: 0.8rem;
-                    font-weight: 600;
-                    padding: 1.25rem 0;
-                }
-
-                ol {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    gap: 0.3125rem;
-                    width: 100%;
-                    text-align: center;
-                }
-            }
-
-            div:nth-child(2){
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            
-
-                span {  
-                    width: 100%;
-                    text-align: center;    
-                    font-size: 0.8rem;
-                    font-weight: 600;
-                    padding: 1.25rem 0;
-                }
-
-                ol {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    height: 100%;
-
-                    gap: 0.3125rem;
-                    width: 100%;
-                    text-align: center;
-
-                    li {
-                        list-style: disc;
-                        list-style-position: inside;
-                        
-                    }
-
-                    li > span {
-                        font-weight: 100;
-                        padding: 0;
-                        margin: -0.625rem;
-                    }
-                }
-            }
         }
     }
 }
-

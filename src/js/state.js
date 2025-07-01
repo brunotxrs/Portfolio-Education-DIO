@@ -6,14 +6,15 @@ export const state = {
     contact: document.getElementById("phone"),
     email: document.getElementById("email"),
     skills: {
-        hardSkills: document.getElementById("hardSkills"),     
+        hardSkills: document.getElementById("hardSkills"), 
+        softSkills: document.getElementById("softSkills"),    
     },
-    languages:"",
-    portfolio:"",
+    languages: document.getElementById("languages"),
+    portfolio: document.getElementById("portfolio"),
     buttons: {
-        btnDown: document.getElementById("arrow-down"),
-        btnUp: document.getElementById("arrow-up"),
+        btnDown: document.querySelectorAll('[id^="arrow-down-"]'),
+        btnUp:  document.querySelectorAll('[id^="arrow-up-"]'),
     },
-    containerSkill: document.querySelectorAll(".selection"),
-    boxSkills: document.getElementById("box-skills"),
+    classSelect: document.querySelectorAll(".select"),
+    box: document.querySelectorAll(".box"),
 }

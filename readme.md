@@ -41,7 +41,7 @@ Minha intenção é seguir as diretrizes visuais do template, mas adicionando el
 
 -----
 
-## 🛠️ Como Rodar o Projeto (em desenvolvimento)
+## 🛠️ Como Rodar o Projeto
 
 
 1.  **Clone este repositório:**

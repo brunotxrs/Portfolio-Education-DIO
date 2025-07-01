@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    
 
     figure {
         display: flex;
@@ -17,6 +18,7 @@
             width: 8.75rem;
             border-radius: 50%;
             border: 0.125rem solid var(--secondary);
+            user-select: none;
         }
 
     }
@@ -32,12 +34,14 @@
             p {
                 font-size: 1.2rem;
                 font-family: var(--font-portfolio);
+                user-select: none;
             }
 
             h1 {
                 font-size: 1.2rem;
                 font-family: var(--font-portfolio);
                 font-weight: 500;
+                user-select: none;
             }
 
         }
@@ -57,10 +61,12 @@
 
                 img {
                     width: 0.6875rem;
+                    user-select: none;
                 }
 
                 span {
                     font-size: 0.8rem;
+                    user-select: none;
                 }
             }
         }

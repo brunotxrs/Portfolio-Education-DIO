@@ -1,7 +1,6 @@
 import {  state  } from './state.js';
-import {  button  } from './buttons.js'
  
-export function hardSkills(data){
+function hardSkills(data){
     
      data.skills.hardSkills.forEach(skills => {
         const li = document.createElement('li')
@@ -14,7 +13,19 @@ export function hardSkills(data){
         
     });
 
+}
 
-    button()
+function softSkills(data){
+    data.skills.softSkills.forEach(skills => {
+        const li = document.createElement('li');
+        const span = document.createElement('span');
+        span.innerHTML = `${skills}`       
+    
+        state.skills.softSkills.appendChild(li);
+        li.appendChild(span)
+        
+    });
 
 }
+
+export {  hardSkills , softSkills } 

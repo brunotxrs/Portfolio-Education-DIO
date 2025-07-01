@@ -1,4 +1,4 @@
-.header {
+.description-details {
     display: flex;
     flex-direction: column;
     padding: 0.625rem 0 0 0;
@@ -71,7 +71,7 @@
 
 
 @media screen and (width > 48rem){
-    .header {
+    .description-details {
         height: 11.5625rem;
         display: flex;
         flex-direction: row;

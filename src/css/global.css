@@ -8,6 +8,7 @@
     --bg-container: linear-gradient(to right, #434343 0%, black 100%);
     --color-white: #FFF;
     --secondary: #55569E;
+
 }
 
 html {
@@ -43,5 +44,10 @@ a {
     border-top-left-radius: 0.625rem;
     border-top-right-radius: 0.625rem;
     
+}
+
+.box {
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
 }
 

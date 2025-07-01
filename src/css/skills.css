@@ -1,0 +1,205 @@
+.skills {
+    width: 20rem;
+    padding: 1.875rem 1.25rem;
+
+
+    .select-skills {
+        height: 2.5rem;
+        outline: 0.0625rem solid var(--color-white);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 1.25rem;
+        border-radius: 3.125rem;
+
+        span {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        button {
+            background: none;
+            border: none;
+            outline: none;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            
+
+            img {
+                width: 0.625rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .select-skills:hover {
+        background-color: var(--secondary);
+        outline: none;
+    }
+
+    .skills-content {
+        display: flex;
+        flex-direction: row;
+        gap: 0.625rem;
+        border-bottom-left-radius: 0.625rem;
+        border-bottom-right-radius: 0.625rem;
+        margin-top: -1.25rem;
+
+        div:nth-child(1){
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            
+
+            span {
+                max-width: 8.125rem;
+                text-align: center;
+                font-size: 0.8rem;
+                font-weight: 600;
+                padding: 1.5rem 0;
+            }
+
+            ol {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 0.3125rem;
+                width: 100%;
+                text-align: center;
+
+                li > img {
+                    width: 3.125rem;
+                }
+            }
+        }
+
+        div:nth-child(2){
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+           
+
+            span {  
+                max-width: 8.125rem;
+                text-align: center;    
+                font-size: 0.8rem;
+                font-weight: 600;
+                padding: 1.25rem 0;
+            }
+
+            ol {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                height: 100%;
+
+                gap: 0.3125rem;
+                width: 100%;
+                text-align: center;
+
+                li {
+                    list-style: disc;
+                    list-style-position: inside;
+                    
+                }
+
+                li > span {
+                    font-weight: 100;
+                    padding: 0;
+                    margin: -0.625rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (width > 48rem) {
+    
+    .skills {
+        width: 20.625rem;
+        padding: 1.875rem 0rem;
+
+        .select-skills {
+            outline: 0.0625rem solid var(--color-white);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1.25rem;
+            border-radius: 3.125rem;
+
+            span {
+                font-weight: 600;
+                font-size: 1.1rem;
+            }
+        }
+
+        .skills-content {
+            display: flex;
+            flex-direction: row;
+            gap: 0.625rem;
+
+            div:nth-child(1){
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+
+                span {
+                    text-align: center;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    padding: 1.25rem 0;
+                }
+
+                ol {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 0.3125rem;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            div:nth-child(2){
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            
+
+                span {  
+                    width: 100%;
+                    text-align: center;    
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    padding: 1.25rem 0;
+                }
+
+                ol {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    height: 100%;
+
+                    gap: 0.3125rem;
+                    width: 100%;
+                    text-align: center;
+
+                    li {
+                        list-style: disc;
+                        list-style-position: inside;
+                        
+                    }
+
+                    li > span {
+                        font-weight: 100;
+                        padding: 0;
+                        margin: -0.625rem;
+                    }
+                }
+            }
+        }
+    }
+}
+

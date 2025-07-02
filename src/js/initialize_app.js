@@ -12,16 +12,21 @@ export async function initializeApp() {
         const userProfile = await userProfilePromise; // <--  INSTÂNCIA REAL
 
         if (userProfile) { // Verifica se a Promise foi resolvida com sucesso
-            // chamada das funções que estrutura os dados da api ao HTML
-            descriptionDetails(userProfile);
-            hardSkills(userProfile);
-            softSkills(userProfile);
-            languages(userProfile);
-            portfolio(userProfile);
-            
-            contentToggle()
 
-            
+            document.querySelector(".spinner").classList.toggle("spinner-loading");
+
+            setTimeout(function() {
+                document.querySelector(".spinner").classList.toggle("spinner-loading");
+                // chamada das funções que estrutura os dados da api ao HTML
+                descriptionDetails(userProfile);
+                hardSkills(userProfile);
+                softSkills(userProfile);
+                languages(userProfile);
+                portfolio(userProfile);
+                
+                contentToggle()
+                
+            }, 3000)
 
             
         } else {
